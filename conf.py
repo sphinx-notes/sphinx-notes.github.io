@@ -19,9 +19,6 @@ project = 'Sphinx Notes'
 author = 'Shengyu Zhang'
 copyright = '%s, %s' % (datetime.now().year, author)
 
-# The full version, including alpha/beta/rc tags
-version = release = 'N/A'
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
