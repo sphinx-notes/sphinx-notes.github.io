@@ -4,9 +4,9 @@ h1 {
 }
 
 /* Logo */
-.body:first-child > img {
+#main-content > div:nth-child(1) > img:nth-child(1) {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: 20%;
 }
