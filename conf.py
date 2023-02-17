@@ -27,6 +27,9 @@ copyright = '%s, %s' % (datetime.now().year, author)
 extensions = [
     'sphinx.ext.githubpages',
     'sphinx.ext.extlinks',
+    "sphinx_design",
+    "sphinx.ext.intersphinx",
+    "sphinxext.opengraph",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,12 +55,11 @@ show_authors = True
 # a list of builtin themes.
 #
 # HTML theme configuration
-html_theme = 'sphinx_book_theme'
+html_theme = 'furo'
 html_theme_options = {
-    'repository_url': 'https://github.com/sphinx-notes/sphinx-notes.github.io',
-    "use_repository_button": True,
-    "use_download_button": False,
-    "single_page": True
+    "source_repository": "https://github.com/sphinx-notes/sphinx-notes.github.io",
+    "source_branch": "master",
+    "source_directory": "docs/",
 }
 
 
@@ -76,7 +78,3 @@ html_logo = html_favicon = '_images/sphinx-notes.png'
 
 # If true, Sphinx will add “permalinks” for each heading and description environment.
 html_permalinks = False
-
-extlinks = {
-    'sphinxnotes': (html_baseurl + '%s', 'sphinxnotes-'),
-}

@@ -1,1 +1,3 @@
-sphinx_book_theme
+furo
+sphinx-design
+sphinxext-opengraph
