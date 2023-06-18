@@ -30,7 +30,10 @@ extensions = [
     "sphinx_design",
     "sphinx.ext.intersphinx",
     "sphinxext.opengraph",
+    'sphinxcontrib.gtagjs',
 ]
+
+gtagjs_ids = ['G-E4SNX0WZYV']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
