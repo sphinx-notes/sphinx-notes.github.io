@@ -62,7 +62,6 @@ html_theme = 'furo'
 html_theme_options = {
     "source_repository": "https://github.com/sphinx-notes/sphinx-notes.github.io",
     "source_branch": "master",
-    "source_directory": "docs/",
 }
 
 
