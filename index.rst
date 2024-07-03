@@ -99,6 +99,15 @@ Projects
 .. |mock-badge| image:: https://img.shields.io/github/stars/sphinx-notes/mock.svg?style=social&label=Star&maxAge=2592000
                :target: https://github.com/sphinx-notes/mock
 
+Documentations
+==============
+
+.. toctree::
+   :caption: Documentations
+   :glob:
+
+   *
+
 Links
 =====
 
