@@ -11,9 +11,38 @@ Currently, These projects are growing under umbrella of The Sphinx Notes Project
 Projects
 ========
 
+.. code:: rst
+
+   .. template:rst:: projects.yml
+      :toplevel: .
+
+      .. grid:: 1 2 2 2
+         :gutter: 1
+
+         {% for pin projects %}
+         .. grid-item-card::
+            :link: https://sphinx.silverrainz.me/{{ p }}
+
+         .. |{{ p }}-stars| image:: https://img.shields.io/github/stars/sphinx-notes/{{ p }}.svg?style=social&label=Star&maxAge=2592000
+                  :target: https://github.com/sphinx-notes/{{ p }}
+         .. |{{ p }}-docs| image:: https://img.shields.io/github/deployments/sphinx-notes/{{ p }}/github-pages
+            :target: https://sphinx.silverrainz.me/{{ p }}
+            :alt: Documentation Status
+         .. |{{ p }}-pypi| image:: https://img.shields.io/pypi/v/sphinxnotes-{{ p }}.svg
+            :target: https://pypi.python.org/pypi/sphinxnotes-{{ p }}
+            :alt: PyPI Package
+         .. |{{ p }}-dl| image:: https://img.shields.io/pypi/dm/sphinxnotes-{{ p }}
+            :target: https://pypi.python.org/pypi/sphinxnotes-{{ p }}
+            :alt: PyPI Package Downloads
+
+            {{ p }} |{{ p }}-stars| |{{ p }}-docs| |{{ p }}-pypi| |{{ p }}-dl|
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+            {{ breif }}
+         {% endfor %}
 
 .. grid:: 1 2 2 2
-   :gutter: 2
+   :gutter: 1
 
    .. grid-item-card::
       :link: https://sphinx.silverrainz.me/pages

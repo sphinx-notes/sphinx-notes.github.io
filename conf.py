@@ -31,6 +31,12 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinxext.opengraph",
     'sphinxcontrib.gtagjs',
+
+    # SphinxNotes
+    'sphinxnotes.any',
+    'sphinxnotes.comboroles',
+    'sphinxnotes.lilypond',
+    'sphinxnotes.strike',
 ]
 
 gtagjs_ids = ['G-E4SNX0WZYV']

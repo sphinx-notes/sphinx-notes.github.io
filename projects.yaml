@@ -1,0 +1,9 @@
+projects:
+  - name: pages
+    brief: |
+      Github Actions for publishing Sphinx HTML output to github pages.
+  - name: pages
+    brief: |
+      Github Actions for publishing Sphinx HTML output to github pages.
+
+

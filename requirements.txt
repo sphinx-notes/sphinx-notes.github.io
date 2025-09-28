@@ -2,3 +2,11 @@ furo
 sphinx-design
 sphinxext-opengraph
 sphinxcontrib-gtagjs
+
+# SphinxNotes
+sphinxnotes-any
+sphinxnotes-comboroles
+sphinxnotes-isso
+sphinxnotes-lilypond
+sphinxnotes-mock
+sphinxnotes-strike
